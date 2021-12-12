@@ -2,14 +2,14 @@
 const { MessageEmbed } = require('discord.js');
 
 const Color = {
-  info: '#c6d7f5',
-  warn: 'YELLOW',
-  error: 'RED',
+  info: 'WHITE',
+  warn: 'WHITE',
+  error: 'WHITE',
 };
 function CreateEmbed(color, message) {
   const embed = new MessageEmbed()
-    .setColor(Color[color])
-    .setFooter(`© カグチ ${new Date().getFullYear()}`);
+    .setColor("WHITE")
+    .setFooter(`© Haruka Music ${new Date().getFullYear()}`);
   if (message) embed.setDescription(message);
   return embed;
 }

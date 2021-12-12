@@ -1,12 +1,11 @@
 module.exports = {
   owners: [],
   nodes: [{
-    identifier: 'NODE-MAIN-2',
-    host: 'lavalink-repl.ahmasa.repl.co',
-    password: 'youshallnotpass',
+    identifier: 'Haruka Music',
+    host: 'lavalink-railways-production-03e8.up.railway.app',
     port: 443,
     secure: true,
   }],
-  prefix: 'nb!',
+  prefix: 'a,',
   updateSlash: false,
 };

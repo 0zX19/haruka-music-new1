@@ -1,5 +1,5 @@
 module.exports = {
-  owners: [],
+  owners: [795708124442918913],
   nodes: [{
     identifier: 'Haruka Music',
     host: 'lavalink-railways-production-03e8.up.railway.app',

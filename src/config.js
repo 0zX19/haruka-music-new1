@@ -4,7 +4,7 @@ module.exports = {
     identifier: 'Haruka Music',
     host: 'lavalink.eu',
     password: 'Raccoon',
-    port: 443,
+    port: 2333,
     secure: true,
   }],
   prefix: 'h,',

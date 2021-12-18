@@ -5,7 +5,6 @@ module.exports = {
     host: 'lavalink.eu',
     password: 'Raccoon',
     port: 2333,
-    secure: true,
   }],
   prefix: 'h,',
   updateSlash: false,

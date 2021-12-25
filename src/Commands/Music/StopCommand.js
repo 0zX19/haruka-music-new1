@@ -20,7 +20,7 @@ module.exports = class StopCommand extends Command {
       if (!msg.member.voice.channelId) return msg.channel.send({ embeds: [CreateEmbed('warn', '⛔ | you must join voice channel to do this.')] });
       if (msg.member.voice.channelId !== GuildPlayers.voiceChannel) return msg.channel.send({ embeds: [CreateEmbed('warn', '⛔ | you must join voice channel same as me to do this.')] });
       GuildPlayers.destroy();
-      return msg.channel.send({ embeds: [CreateEmbed('info', '👌 | Stopped guild queue')] });
+      return msg.channel.send({ embeds: [CreateEmbed('info', '⏹ | Stopped guild queue')] });
     } catch (e) {
       this.client.logger.error(e.message);
       return msg.channel.send({ embeds: [CreateEmbed('warn', '⛔ | An error occured')] });

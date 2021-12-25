@@ -2,9 +2,9 @@ module.exports = {
   owners: [795708124442918913],
   nodes: [{
     identifier: 'Haruka Music',
-    host: 'lavalink.eu',
-    password: 'Raccoon',
-    port: 2333,
+    host: 'main.paras888.repl.co',
+    password: 'youshallnotpass',
+    port: 443,
   }],
   prefix: 'h,',
   updateSlash: false,
